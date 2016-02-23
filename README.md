@@ -10,6 +10,8 @@ Ben Jones
 
 To install this package use:
 
+#Something else
+
 
 ```s
 devtools::install_github('benjones2/benr2', build_vignettes = TRUE)
