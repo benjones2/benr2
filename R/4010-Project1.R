@@ -56,7 +56,8 @@ RP <- function(vector, power){
 #' @export
 #'
 #' @examples
-#' deck <- read.csv("/var/folders/h9/44pdnt9j3n727vp2q8pswr_00000gp/T//RtmpKaNS4I/data22675300904f", stringsAsFactors=FALSE)
+#' site <- "https://raw.githubusercontent.com/shifteight/R/master/HandsOn/deck.csv"
+#' deck <- read.csv(site, stringsAsFactors=FALSE)
 #' deck
 #' shuffle(deck)
 shuffle <- function(deck){
