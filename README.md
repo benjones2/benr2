@@ -10,7 +10,7 @@ Ben Jones
 
 To install this package use:
 
-#Something else
+#Something elsed
 
 
 ```s
