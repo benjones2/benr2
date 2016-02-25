@@ -28,7 +28,7 @@ roll <- function(dietype = 1:6, probvalues = rep(1/length(dietype), length(diety
 #' sq(1:10)
 #' sq(c(3,5,8))
 sq <- function(vector){
-  if(typeof(vector) != "double")
+  if(typeof(vector) != "double" & typeof(vector) != "integer")
     stop("Power arg is not numeric.")
   vector^2
 }
