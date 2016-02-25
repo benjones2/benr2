@@ -11,5 +11,5 @@ DECK
 \description{
 Data representing a deck of cards.
 }
-\keyword{datasets}
+\keyword{dataset}
 

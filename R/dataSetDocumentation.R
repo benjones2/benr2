@@ -5,5 +5,5 @@
 #' @docType data
 #' @description Data representing a deck of cards.
 #' @format A data frame with 3 variables and 52 rows.
-#' @keywords datasets
+#' @keywords dataset
 "DECK"
