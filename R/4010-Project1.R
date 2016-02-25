@@ -1,3 +1,4 @@
+
 #' roll
 #'
 #' @param dietype values for die
@@ -55,10 +56,7 @@ RP <- function(vector, power){
 #' @export
 #'
 #' @examples
-#' site <- "https://raw.githubusercontent.com/shifteight/R/master/HandsOn/deck.csv"
-#' deck <- read.csv(site, stringsAsFactors=FALSE)
-#' deck
-#' shuffle(deck)
+#' shuffle(DECK)
 shuffle <- function(deck){
   random <- sample(1:nrow(deck), size = nrow(deck))
   deck[random, ]

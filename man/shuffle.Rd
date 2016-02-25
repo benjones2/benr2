@@ -16,9 +16,6 @@ shuffled vector of numbers (numbers in random order)
 shuffle
 }
 \examples{
-site <- "https://raw.githubusercontent.com/shifteight/R/master/HandsOn/deck.csv"
-deck <- read.csv(site, stringsAsFactors=FALSE)
-deck
-shuffle(deck)
+shuffle(DECK)
 }
 
