@@ -4,27 +4,12 @@
 \name{DECK}
 \alias{DECK}
 \title{Deck of Cards}
-\format{A data frame with 3 variables and 52 rows.
-\itemize{
-\item \code{face} (a character vector)
-\item \code{suit} (a character vector)
-\item \code{value} (an integer vector)
-}}
-\source{
-Github user content.
-}
+\format{A data frame with 3 variables and 52 rows.}
 \usage{
 DECK
 }
 \description{
 Data representing a deck of cards.
-}
-\details{
-This is a file that contains a row for each card in a 52 card deck.
-}
-\examples{
-with(data = AGGRESSION,
-wilcox.test(face, suit, value, paired = TRUE, alternative = "greater"))
 }
 \keyword{datasets}
 
