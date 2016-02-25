@@ -7,7 +7,7 @@
 shuffle(deck)
 }
 \arguments{
-\item{a}{vector of numbers to be randomly shuffled}
+\item{deck}{vector of numbers to be randomly shuffled}
 }
 \value{
 shuffled vector of numbers (numbers in random order)

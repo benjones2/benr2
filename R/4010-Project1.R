@@ -50,7 +50,7 @@ RP <- function(vector, power){
 }
 #' shuffle
 #'
-#' @param a vector of numbers to be randomly shuffled
+#' @param deck vector of numbers to be randomly shuffled
 #'
 #' @return shuffled vector of numbers (numbers in random order)
 #' @export
