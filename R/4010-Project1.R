@@ -1,4 +1,3 @@
-
 #' roll
 #'
 #' @param dietype values for die
